@@ -1,0 +1,18 @@
+AddType application/vnd.hbbtv.xhtml+xml html
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+
+# add a trailing slash to /wp-admin
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-admin$ $1wp-admin/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) wp/$2 [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ wp/$2 [L]
+RewriteRule ^app/plugins/mpat-plugins/js/mpat_core.min.js$ http://localhost:8888/mpat_core.min.js [L]
+RewriteRule ^app/plugins/mpat-plugins/js/mpat_admin.min.js$ http://localhost:8888/mpat_admin.min.js [L]
+RewriteRule ^app/plugins/mpat-plugins/TimeLine/backend/js/mpat_timeline.min.js$ http://localhost:8888/mpat_timeline.min.js [L]
+RewriteRule . index.php [L]

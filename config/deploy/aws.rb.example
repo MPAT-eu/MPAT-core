@@ -1,0 +1,38 @@
+set :stage, :staging
+
+# Simple Role Syntax
+# ==================
+#role :app, %w{deploy@example.com}
+#role :web, %w{deploy@example.com}
+#role :db,  %w{deploy@example.com}
+
+# Extended Server Syntax
+# ======================
+server '<your-aws-domain>', user: '<your-aws-user>', roles: %w{web app db}
+
+# you can set custom ssh options
+# it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
+# you can see them in [net/ssh documentation](http://net-ssh.github.io/net-ssh/classes/Net/SSH.html#method-c-start)
+# set it globally
+#  set :ssh_options, {
+#    keys: %w(~/.ssh/id_rsa),
+#    forward_agent: false,
+#    auth_methods: %w(password)
+#  }
+
+set :pty, true
+
+set :ssh_options, {
+  forward_agent: true,
+  auth_methods: ["publickey"],
+  keys: ["<absolute path to *.pem key file stored in loacl machine>"]
+}
+
+set :application, 'mpat-pilot'
+set :repo_url, 'git@gitlab.fokus.fraunhofer.de:MPAT/MPAT-core.git'
+set :deploy_to, -> { "<path on the remote machine where to checkout git project>" }
+set :log_level, :debug # after successfully configure, delete this line (or move back to default :info)
+set :branch, :capistrano # the git branch you want to deploy on remote machine
+
+
+fetch(:default_env).merge!(wp_env: :staging) # in this case :staging refer to env confired wordpres-wise. Naming convention with config files stored in config/environments

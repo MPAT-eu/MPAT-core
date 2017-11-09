@@ -1,0 +1,1858 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "52247b5d0466e44df87c8ffc505fa8d9",
+    "content-hash": "91fcda8fc3323c4f05e5071fd7cf0b21",
+    "packages": [
+        {
+            "name": "alchemy/binary-driver",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alchemy-fr/BinaryDriver.git",
+                "reference": "80c6633890afb71d2417ae851d0ad167d8b00b95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alchemy-fr/BinaryDriver/zipball/80c6633890afb71d2417ae851d0ad167d8b00b95",
+                "reference": "80c6633890afb71d2417ae851d0ad167d8b00b95",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^2.0|^1.0",
+                "monolog/monolog": "^1.3",
+                "php": ">=5.5",
+                "psr/log": "^1.0",
+                "symfony/process": "^2.0|^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0|^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Alchemy": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Neutron",
+                    "email": "imprec@gmail.com",
+                    "homepage": "http://www.lickmychip.com/"
+                },
+                {
+                    "name": "Phraseanet Team",
+                    "email": "info@alchemy.fr",
+                    "homepage": "http://www.phraseanet.com/"
+                },
+                {
+                    "name": "Nicolas Le Goff",
+                    "email": "legoff.n@gmail.com"
+                }
+            ],
+            "description": "A set of tools to build binary drivers",
+            "keywords": [
+                "binary",
+                "driver"
+            ],
+            "time": "2016-03-02 13:49:15"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.0.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "ImageCMS",
+                "MODX Evo",
+                "Mautic",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "custom-post-order",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MPAT-eu/cpo.git",
+                "reference": "bdd2ba878cb370d601ac778c11b07f9e8815cb64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MPAT-eu/cpo/zipball/bdd2ba878cb370d601ac778c11b07f9e8815cb64",
+                "reference": "bdd2ba878cb370d601ac778c11b07f9e8815cb64",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Philippe Ruijs",
+                    "email": "jean-philippe.ruijs@imt.fr"
+                }
+            ],
+            "description": "MPAT custom port order",
+            "support": {
+                "source": "https://github.com/MPAT-eu/cpo/tree/master"
+            },
+            "time": "2017-07-03 09:30:56"
+        },
+        {
+            "name": "doctrine/cache",
+            "version": "v1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/cache.git",
+                "reference": "eb152c5100571c7a45470ff2a35095ab3f3b900b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/eb152c5100571c7a45470ff2a35095ab3f3b900b",
+                "reference": "eb152c5100571c7a45470ff2a35095ab3f3b900b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.5|~7.0"
+            },
+            "conflict": {
+                "doctrine/common": ">2.2,<2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8|~5.0",
+                "predis/predis": "~1.0",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Caching library offering an object-oriented API for many cache backends",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "cache",
+                "caching"
+            ],
+            "time": "2017-07-22 12:49:21"
+        },
+        {
+            "name": "evenement/evenement",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/evenement.git",
+                "reference": "6ba9a777870ab49f417e703229d53931ed40fd7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/6ba9a777870ab49f417e703229d53931ed40fd7a",
+                "reference": "6ba9a777870ab49f417e703229d53931ed40fd7a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0||^5.7||^4.8.35"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Evenement": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                }
+            ],
+            "description": "Événement is a very simple event dispatching library for PHP",
+            "keywords": [
+                "event-dispatcher",
+                "event-emitter"
+            ],
+            "time": "2017-07-17 17:39:19"
+        },
+        {
+            "name": "johnpbloch/wordpress",
+            "version": "4.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/24edf4daca6bc15ad3b78c5927468df487d47a37",
+                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37",
+                "shasum": ""
+            },
+            "require": {
+                "johnpbloch/wordpress-core": "4.8.0",
+                "johnpbloch/wordpress-core-installer": "^1.0",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-06-08 15:12:19"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/58f209dfd66f61c4398a47cf53e90d378abc25d7",
+                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-06-08 15:12:14"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": ">=4.8.35"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2017-05-31 18:42:33"
+        },
+        {
+            "name": "meta-box-order_page",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MPAT-eu/mbop.git",
+                "reference": "6948094d29b6ae1eca149585412d9845ca665c5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MPAT-eu/mbop/zipball/6948094d29b6ae1eca149585412d9845ca665c5d",
+                "reference": "6948094d29b6ae1eca149585412d9845ca665c5d",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Philippe Ruijs",
+                    "email": "jean-philippe.ruijs@imt.fr"
+                }
+            ],
+            "description": "WordPress meta-box cleaner, This will remove the 'meta-box-order_page' value for user which is generated when having opened a page. Accessible via http://[wproot]/mbop",
+            "support": {
+                "source": "https://github.com/MPAT-eu/mbop/tree/master",
+                "issues": "https://github.com/MPAT-eu/mbop/issues"
+            },
+            "time": "2017-06-30 13:46:42"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2017-06-19 01:22:40"
+        },
+        {
+            "name": "mpat/asset-converter",
+            "version": "0.0.6",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.fokus.fraunhofer.de:MPAT/MPAT_AssetConverter.git",
+                "reference": "e2f2f6e3d7b22d965b5ed560586bd9fcf5bf1b64"
+            },
+            "require": {
+                "monolog/monolog": "^1.19",
+                "php-ffmpeg/php-ffmpeg": "~0.5",
+                "php-mp4box/php-mp4box": "^0.3.0",
+                "pimple/pimple": "^3.0",
+                "symfony/console": "^3.1",
+                "symfony/filesystem": "^3.1",
+                "symfony/finder": "^3.1",
+                "symfony/yaml": "^3.1",
+                "wazaari/monolog-mysql": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.4"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "MPAT\\AssetConverter\\Tests\\": "tests",
+                    "MPAT\\AssetConverter\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Stefano Miccoli",
+                    "email": "stefano.miccoli@finconsgroup.com"
+                }
+            ],
+            "time": "2017-05-18 14:07:29"
+        },
+        {
+            "name": "mpat/mpat-360",
+            "version": "dev-external-component",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.fokus.fraunhofer.de:MPAT/MPAT_360.git",
+                "reference": "e3b67daa03a0844254f695cfd98aa441fe8b9d68"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Ferrari",
+                    "email": "marco.ferrari@finconsgroup.com"
+                }
+            ],
+            "description": "MPAT video 360 plugin",
+            "time": "2017-02-28 11:11:21"
+        },
+        {
+            "name": "mpat/mpat-asset-api",
+            "version": "dev-fincons",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.fokus.fraunhofer.de:MPAT/MPAT-asset-api.git",
+                "reference": "31d4fe140c435fe23d8e86886981f024bfb3d15f"
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "mpat/asset-converter": "0.0.6",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "MPAT\\AssetAPI\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefano Miccoli",
+                    "email": "stefano.miccoli@finconsgroup.com"
+                }
+            ],
+            "description": "MPAT asset API plugin",
+            "time": "2017-06-22 13:48:11"
+        },
+        {
+            "name": "mpat/mpat-explorer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MPAT-eu/mpat-explorer.git",
+                "reference": "11efcd9592e62eacf63d7386422ecd75f36ddb8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MPAT-eu/mpat-explorer/zipball/11efcd9592e62eacf63d7386422ecd75f36ddb8f",
+                "reference": "11efcd9592e62eacf63d7386422ecd75f36ddb8f",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Claude Dufourd",
+                    "email": "dufourd@telecom-paristech.fr"
+                }
+            ],
+            "description": "MPAT explorer",
+            "support": {
+                "source": "https://github.com/MPAT-eu/mpat-explorer/tree/master",
+                "issues": "https://github.com/MPAT-eu/mpat-explorer/issues"
+            },
+            "time": "2017-06-30 15:54:43"
+        },
+        {
+            "name": "mpat/mpat-importexport",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MPAT-eu/mpat-importexport.git",
+                "reference": "967a7dc3190989d8771597ba5e35919fe8573c1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MPAT-eu/mpat-importexport/zipball/967a7dc3190989d8771597ba5e35919fe8573c1a",
+                "reference": "967a7dc3190989d8771597ba5e35919fe8573c1a",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "Aurelien David",
+                    "email": "aurelien.david@telecom-paristech.fr"
+                }
+            ],
+            "description": "MPAT import and export pages",
+            "support": {
+                "source": "https://github.com/MPAT-eu/mpat-importexport/tree/master",
+                "issues": "https://github.com/MPAT-eu/mpat-importexport/issues"
+            },
+            "time": "2017-07-12 12:00:04"
+        },
+        {
+            "name": "mpat/mpat-plugins",
+            "version": "dev-pilot-mediaset",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:MPAT-eu/MPAT-plugins.git",
+                "reference": "ef64e657b1a73d3cb61f668f701add0f2ae62c8c"
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "MPAT\\": ""
+                }
+            },
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "Stefano Miccoli",
+                    "email": "stefano.miccoli@finconsgroup.com"
+                }
+            ],
+            "description": "MPAT main plugin",
+            "time": "2017-07-24 15:58:24"
+        },
+        {
+            "name": "mpat/mpat-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:MPAT-eu/MPAT-theme.git",
+                "reference": "21ff28b3f43c67f865d4178f08b91a33f7b8d0e3"
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "MPAT",
+                    "email": "info@mpat.eu"
+                }
+            ],
+            "description": "MPAT theme",
+            "time": "2017-07-25 13:02:01"
+        },
+        {
+            "name": "mpat/pilot-mediaset",
+            "version": "dev-meteo",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.fokus.fraunhofer.de:MPAT/mediaset-plugins.git",
+                "reference": "f474510fed097980d77cbf2c3831ecc2e567161a"
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Ferrari",
+                    "email": "marco.ferrari@finconsgroup.com"
+                }
+            ],
+            "description": "MPAT mediaset pilot",
+            "time": "2017-07-21 16:40:45"
+        },
+        {
+            "name": "neutron/temporary-filesystem",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romainneutron/Temporary-Filesystem.git",
+                "reference": "0a72a1c858b95fd469d87baa333f627978504ea8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romainneutron/Temporary-Filesystem/zipball/0a72a1c858b95fd469d87baa333f627978504ea8",
+                "reference": "0a72a1c858b95fd469d87baa333f627978504ea8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.9 || ^7.0",
+                "symfony/filesystem": "^2.3 || ^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Neutron": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Neutron",
+                    "email": "imprec@gmail.com"
+                }
+            ],
+            "description": "Symfony filesystem extension to handle temporary files",
+            "time": "2016-03-05 10:22:50"
+        },
+        {
+            "name": "oscarotero/env",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oscarotero/env.git",
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0f676e41d758fa984806c32e27f0cf7afa63d8db",
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Env": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oscar Otero",
+                    "email": "oom@oscarotero.com",
+                    "homepage": "http://oscarotero.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple library to consume environment variables",
+            "homepage": "https://github.com/oscarotero/env",
+            "keywords": [
+                "env"
+            ],
+            "time": "2017-07-17 20:41:59"
+        },
+        {
+            "name": "php-ffmpeg/php-ffmpeg",
+            "version": "0.9.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-FFMpeg/PHP-FFMpeg.git",
+                "reference": "96225b2dff65a4c3b0b541f2420742ffe5851127"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-FFMpeg/PHP-FFMpeg/zipball/96225b2dff65a4c3b0b541f2420742ffe5851127",
+                "reference": "96225b2dff65a4c3b0b541f2420742ffe5851127",
+                "shasum": ""
+            },
+            "require": {
+                "alchemy/binary-driver": "^1.5",
+                "doctrine/cache": "^1.0",
+                "evenement/evenement": "^2.0 || ^1.0",
+                "neutron/temporary-filesystem": "^2.1.1",
+                "php": "^5.3.9 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "sami/sami": "~1.0",
+                "silex/silex": "~1.0"
+            },
+            "suggest": {
+                "php-ffmpeg/extras": "A compilation of common audio & video drivers for PHP-FFMpeg"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "FFMpeg": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Neutron",
+                    "email": "imprec@gmail.com",
+                    "homepage": "http://www.lickmychip.com/"
+                },
+                {
+                    "name": "Phraseanet Team",
+                    "email": "info@alchemy.fr",
+                    "homepage": "http://www.phraseanet.com/"
+                },
+                {
+                    "name": "Patrik Karisch",
+                    "email": "patrik@karisch.guru",
+                    "homepage": "http://www.karisch.guru"
+                },
+                {
+                    "name": "Romain Biard",
+                    "email": "romain.biard@gmail.com",
+                    "homepage": "https://www.strime.io/"
+                }
+            ],
+            "description": "FFMpeg PHP, an Object Oriented library to communicate with AVconv / ffmpeg",
+            "keywords": [
+                "audio",
+                "audio processing",
+                "avconv",
+                "avprobe",
+                "ffmpeg",
+                "ffprobe",
+                "video",
+                "video processing"
+            ],
+            "time": "2017-06-30 19:27:10"
+        },
+        {
+            "name": "php-mp4box/php-mp4box",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alchemy-fr/PHP-MP4Box.git",
+                "reference": "baa466be3f6d0b46d27bc0e255e958a95cb7738c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alchemy-fr/PHP-MP4Box/zipball/baa466be3f6d0b46d27bc0e255e958a95cb7738c",
+                "reference": "baa466be3f6d0b46d27bc0e255e958a95cb7738c",
+                "shasum": ""
+            },
+            "require": {
+                "alchemy/binary-driver": "~1.5",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7",
+                "silex/silex": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MP4Box": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Neutron",
+                    "email": "imprec@gmail.com",
+                    "homepage": "http://www.lickmychip.com/"
+                },
+                {
+                    "name": "Phraseanet Team",
+                    "email": "info@alchemy.fr",
+                    "homepage": "http://www.phraseanet.com/"
+                }
+            ],
+            "description": "PHP MP4Box, an Object Oriented library for easy file conversion with MP4 Box",
+            "keywords": [
+                "gpac",
+                "mp4box"
+            ],
+            "time": "2013-06-25 10:13:06"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/4d45fb62d96418396ec58ba76e6f065bca16e10a",
+                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2017-07-23 07:32:15"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14 16:28:37"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "roots/wp-password-bcrypt",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/wp-password-bcrypt.git",
+                "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/wp-password-bcrypt/zipball/5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
+                "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "brain/monkey": "^1.3.1",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^4.8.23|^5.2.9",
+                "squizlabs/php_codesniffer": "^2.5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "wp-password-bcrypt.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                },
+                {
+                    "name": "qwp6t",
+                    "homepage": "https://github.com/qwp6t"
+                },
+                {
+                    "name": "Jan Pingel",
+                    "email": "jpingel@bitpiston.com",
+                    "homepage": "http://janpingel.com"
+                }
+            ],
+            "description": "WordPress plugin which replaces wp_hash_password and wp_check_password's phpass hasher with PHP 5.5's password_hash and password_verify using bcrypt.",
+            "homepage": "https://roots.io/plugins/wp-password-bcrypt",
+            "keywords": [
+                "wordpress wp bcrypt password"
+            ],
+            "time": "2016-03-01 16:27:06"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "a97e45d98c59510f085fa05225a1acb74dfe0546"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/a97e45d98c59510f085fa05225a1acb74dfe0546",
+                "reference": "a97e45d98c59510f085fa05225a1acb74dfe0546",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/debug": "~2.8|~3.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~3.3",
+                "symfony/dependency-injection": "~3.3",
+                "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/filesystem": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0",
+                "symfony/process": "~2.8|~3.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/filesystem": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-03 13:19:36"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "63b85a968486d95ff9542228dc2e4247f16f9743"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/63b85a968486d95ff9542228dc2e4247f16f9743",
+                "reference": "63b85a968486d95ff9542228dc2e4247f16f9743",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/http-kernel": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-05 13:02:37"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "427987eb4eed764c3b6e38d52a0f87989e010676"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/427987eb4eed764c3b6e38d52a0f87989e010676",
+                "reference": "427987eb4eed764c3b6e38d52a0f87989e010676",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-11 07:17:58"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "baea7f66d30854ad32988c11a09d7ffd485810c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/baea7f66d30854ad32988c11a09d7ffd485810c4",
+                "reference": "baea7f66d30854ad32988c11a09d7ffd485810c4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-06-01 21:01:25"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2017-06-09 14:24:12"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "07432804942b9f6dd7b7377faf9920af5f95d70a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/07432804942b9f6dd7b7377faf9920af5f95d70a",
+                "reference": "07432804942b9f6dd7b7377faf9920af5f95d70a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-13 13:05:09"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "1f93a8d19b8241617f5074a123e282575b821df8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/1f93a8d19b8241617f5074a123e282575b821df8",
+                "reference": "1f93a8d19b8241617f5074a123e282575b821df8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/console": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-06-15 12:58:50"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wazaari/monolog-mysql",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waza-ari/monolog-mysql.git",
+                "reference": "fb9e6748e4954dfa8d72794bdd697f6731f77b33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waza-ari/monolog-mysql/zipball/fb9e6748e4954dfa8d72794bdd697f6731f77b33",
+                "reference": "fb9e6748e4954dfa8d72794bdd697f6731f77b33",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": ">1.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MySQLHandler\\": "src/MySQLHandler"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Herrmann",
+                    "email": "daniel.herrmann1@gmail.com"
+                }
+            ],
+            "description": "A handler for Monolog that sends messages to MySQL",
+            "homepage": "https://github.com/waza-ari/monolog-mysql",
+            "keywords": [
+                "database",
+                "log",
+                "logging",
+                "monolog",
+                "mysql"
+            ],
+            "time": "2017-02-13 17:23:18"
+        },
+        {
+            "name": "wpackagist-plugin/members",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/members/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/members.1.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/members/"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "2.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "dcbed1074f8244661eecddfc2a675430d8d33f62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dcbed1074f8244661eecddfc2a675430d8d33f62",
+                "reference": "dcbed1074f8244661eecddfc2a675430d8d33f62",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.1.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "scripts/phpcs",
+                "scripts/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "CodeSniffer.php",
+                    "CodeSniffer/CLI.php",
+                    "CodeSniffer/Exception.php",
+                    "CodeSniffer/File.php",
+                    "CodeSniffer/Fixer.php",
+                    "CodeSniffer/Report.php",
+                    "CodeSniffer/Reporting.php",
+                    "CodeSniffer/Sniff.php",
+                    "CodeSniffer/Tokens.php",
+                    "CodeSniffer/Reports/",
+                    "CodeSniffer/Tokenizers/",
+                    "CodeSniffer/DocGenerators/",
+                    "CodeSniffer/Standards/AbstractPatternSniff.php",
+                    "CodeSniffer/Standards/AbstractScopeSniff.php",
+                    "CodeSniffer/Standards/AbstractVariableSniff.php",
+                    "CodeSniffer/Standards/IncorrectPatternException.php",
+                    "CodeSniffer/Standards/Generic/Sniffs/",
+                    "CodeSniffer/Standards/MySource/Sniffs/",
+                    "CodeSniffer/Standards/PEAR/Sniffs/",
+                    "CodeSniffer/Standards/PSR1/Sniffs/",
+                    "CodeSniffer/Standards/PSR2/Sniffs/",
+                    "CodeSniffer/Standards/Squiz/Sniffs/",
+                    "CodeSniffer/Standards/Zend/Sniffs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "time": "2017-05-22 02:43:20"
+        },
+        {
+            "name": "wp-api/basic-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WP-API/Basic-Auth.git",
+                "reference": "e91114292718056a6ef00337e0f5957f49f16ff6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WP-API/Basic-Auth/zipball/e91114292718056a6ef00337e0f5957f49f16ff6",
+                "reference": "e91114292718056a6ef00337e0f5957f49f16ff6",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "Basic Authentication handler for the JSON API, used for development and debugging purposes",
+            "support": {
+                "source": "https://github.com/WP-API/Basic-Auth/tree/master",
+                "issues": "https://github.com/WP-API/Basic-Auth/issues"
+            },
+            "time": "2017-06-26 17:27:49"
+        },
+        {
+            "name": "wpackagist-plugin/rewrite-rules-inspector",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rewrite-rules-inspector/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rewrite-rules-inspector.1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rewrite-rules-inspector/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-crontrol",
+            "version": "1.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-crontrol/",
+                "reference": "tags/1.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-crontrol/"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mpat/mpat-plugins": 20,
+        "mpat/mpat-theme": 20,
+        "mpat/mpat-360": 20,
+        "mpat/mpat-asset-api": 20,
+        "mpat/pilot-mediaset": 20,
+        "mpat/mpat-importexport": 20,
+        "mpat/mpat-explorer": 20,
+        "custom-post-order": 20,
+        "meta-box-order_page": 20,
+        "wp-api/basic-auth": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5"
+    },
+    "platform-dev": []
+}

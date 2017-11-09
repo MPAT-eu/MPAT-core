@@ -1,0 +1,52 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/themes/*
+!web/app/themes/.gitkeep
+web/app/debug.log
+web/app/languages
+
+# Deploy
+config/deploy/*
+!config/deploy/production.rb
+!config/deploy/staging.rb
+!config/deploy/aws.rb.example
+config/backup/*
+!config/backup/.gitkeep
+log/*
+!log/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant
+/.project
+/.buildpath
+#PhpStorm
+.idea/
+
+# Eclipse
+.settings/

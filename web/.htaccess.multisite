@@ -1,0 +1,20 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+
+# add a trailing slash to /wp-admin
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-admin$ $1wp-admin/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) wp/$2 [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ wp/$2 [L]
+# The following item is only a template for JS assets served by NPM/webpack.
+# In production environment it should be ignored
+#RewriteRule ^path/to/js/served/by/webpack/sample.js$ http://localhost:8888/sample.min.js [L]
+RewriteRule . index.php [L]
+</IfModule>
+# END WordPress
