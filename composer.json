@@ -51,7 +51,7 @@
             "url" : "git@github.com:MPAT-eu/mbop.git"
         }, {
             "type" : "vcs",
-            "url" : "git@github.com:jeanphilipperuijs/mpat-newpage-wizard.git"
+            "url" : "git@github.com:MPAT-eu/mpat-newpagewizard.git"
         }
     ],
     "require" : {
@@ -67,7 +67,7 @@
         "mpat/mpat-theme" : "dev-master",
         "mpat/mpat-importexport" : "dev-master",
         "mpat/mpat-explorer" : "dev-master",
-        "mpat/mpat-newpage-wizard": "dev-master",
+        "mpat/mpat-newpagewizard": "dev-master",
         "mpat-cpo" : "dev-master",
         "mbop-remover" : "dev-master"
     },
