@@ -14,7 +14,7 @@ A current demo is running at http://demo.mpat.eu/application/
 
 ## Installation
 
-1. Clone the git repo - `git clone https://gitlab.fokus.fraunhofer.de/MPAT/MPAT-core.git [desired_folder_name]`. `[desired_folder_name]` is optional, default value is `MPAT-core`. In next steps `desired_folder_name` refers to MPAT root folder.
+1. Clone the git repo - `git clone https://github.com/MPAT-eu/MPAT-core.git [desired_folder_name]`. `[desired_folder_name]` is optional, default value is `MPAT-core`. In next steps `desired_folder_name` refers to MPAT root folder.
 2. Verify that `desired_folder_name\web` is accessible through webserver. MPAT can be configured both in apache document root (e.g.: http://localhost/desired_folder_name) and via [apache virtualhost](https://httpd.apache.org/docs/current/vhosts/examples.html), using desired_folder_name as document root of a webserver virtualhost (e.g.: mpat.dev). The choice implies few changes in env variables values. Samples are provided in "Domain related variables samples" section
 3. Move in `desired_folder_name`
 4. Run `composer install` to download dependencies (e.g. contrib and MPAT plugins, on ubuntu 16.04.1 apt install the packages composer, php7.0-xml, zip before running composer install)
