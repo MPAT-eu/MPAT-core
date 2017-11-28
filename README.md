@@ -19,9 +19,9 @@ A current demo is running at http://demo.mpat.eu
 3. Move in `desired_folder_name`
 4. Run `composer install` to download dependencies (e.g. contrib and MPAT plugins, on ubuntu 16.04.1 apt install the packages composer, php7.0-xml, zip before running composer install)
 5. To get the latest Version:
-  * Run `composer update`.
-  * If you don't want to deal with npm, you have to make sure that the current master includes all build files, otherwise you have to build the files by your owne by running `npm run build`
-  * You can skip Step 5., but then you get not the newest Version of MPAT
+    * Run `composer update`.
+    * If you don't want to deal with npm, you have to make sure that the current master includes all build files, otherwise you have to build the files by your owne by running `npm run build`
+    * You can skip Step 5., but then you get not the newest Version of MPAT
 6. Copy `.env.example` to `.env` and update environment variables:
   * `DB_NAME` - Database name
   * `DB_USER` - Database user
