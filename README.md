@@ -10,7 +10,7 @@ Main MPAT project based on [Bedrock](https://roots.io/bedrock/).
 
 ## Demo
 
-A current demo is running at http://demo.mpat.eu/application/
+A current demo is running at http://demo.mpat.eu
 
 ## Installation
 
