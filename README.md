@@ -19,7 +19,7 @@ A current demo is running at http://demo.mpat.eu
 3. Move in `desired_folder_name`
 4. Run `composer install` to download dependencies
     * if you want to clone all repositories as git repositories, add `--prefer-source`
-    * if composer is not installed globally, you can also call `php composer.phar install`
+    * if composer is not installed globally, you can also call `php composer.phar install`
     * (e.g. contrib and MPAT plugins, on ubuntu 16.04.1 apt install the packages composer, php7.0-xml, zip before running composer install)
 5. To get the latest Version:
     * Run `composer update`.
