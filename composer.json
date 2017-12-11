@@ -52,6 +52,9 @@
         }, {
             "type" : "vcs",
             "url" : "git@github.com:MPAT-eu/mbop.git"
+        }, {
+            "type": "vcs",
+            "url": "git@github.com:MPAT-eu/mpat-newpagewizard.git"
         }
     ],
     "require" : {
