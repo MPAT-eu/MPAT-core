@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-<<<<<<< refs/remotes/origin/master
-    "content-hash": "a640529514f21fc029d5ca58a836d283",
-=======
     "content-hash": "a2600c1c3835a1a87bf8d866b27ea831",
->>>>>>> fix newpagewizard/composer issue
     "packages": [
         {
             "name": "composer/installers",
@@ -305,21 +301,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MPAT-eu/mpat-explorer.git",
-<<<<<<< refs/remotes/origin/master
-                "reference": "5f2f35091d0ddfab43c1a76835f7c64fbd934850"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/MPAT-eu/mpat-explorer/zipball/5f2f35091d0ddfab43c1a76835f7c64fbd934850",
-                "reference": "5f2f35091d0ddfab43c1a76835f7c64fbd934850",
-=======
                 "reference": "9555a206c6c46d8e6bbc21edd9416ee506cb6ca0"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/MPAT-eu/mpat-explorer/zipball/9555a206c6c46d8e6bbc21edd9416ee506cb6ca0",
                 "reference": "9555a206c6c46d8e6bbc21edd9416ee506cb6ca0",
->>>>>>> fix newpagewizard/composer issue
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -337,11 +324,7 @@
                 "source": "https://github.com/MPAT-eu/mpat-explorer/tree/master",
                 "issues": "https://github.com/MPAT-eu/mpat-explorer/issues"
             },
-<<<<<<< refs/remotes/origin/master
-            "time": "2017-11-14T13:17:25+00:00"
-=======
             "time": "2017-12-07T10:28:54+00:00"
->>>>>>> fix newpagewizard/composer issue
         },
         {
             "name": "mpat/mpat-importexport",
@@ -373,8 +356,6 @@
                 "issues": "https://github.com/MPAT-eu/mpat-importexport/issues"
             },
             "time": "2017-11-15T15:36:42+00:00"
-<<<<<<< refs/remotes/origin/master
-=======
         },
         {
             "name": "mpat/mpat-newpagewizard",
@@ -406,7 +387,6 @@
                 "issues": "https://github.com/MPAT-eu/mpat-newpagewizard/issues"
             },
             "time": "2017-12-11T16:46:12+00:00"
->>>>>>> fix newpagewizard/composer issue
         },
         {
             "name": "mpat/mpat-plugins",
@@ -414,21 +394,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MPAT-eu/MPAT-plugins.git",
-<<<<<<< refs/remotes/origin/master
-                "reference": "72112187897cd4c2e15e6289eac2e0e6eef9bf8a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/MPAT-eu/MPAT-plugins/zipball/72112187897cd4c2e15e6289eac2e0e6eef9bf8a",
-                "reference": "72112187897cd4c2e15e6289eac2e0e6eef9bf8a",
-=======
                 "reference": "4e00c9a6ea0c009f5f43c73e1030bbe44337ec79"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/MPAT-eu/MPAT-plugins/zipball/4e00c9a6ea0c009f5f43c73e1030bbe44337ec79",
                 "reference": "4e00c9a6ea0c009f5f43c73e1030bbe44337ec79",
->>>>>>> fix newpagewizard/composer issue
                 "shasum": ""
             },
             "require": {
@@ -459,11 +430,7 @@
                 "source": "https://github.com/MPAT-eu/MPAT-plugins/tree/master",
                 "issues": "https://github.com/MPAT-eu/MPAT-plugins/issues"
             },
-<<<<<<< refs/remotes/origin/master
-            "time": "2017-11-23T17:33:39+00:00"
-=======
             "time": "2017-12-08T15:21:07+00:00"
->>>>>>> fix newpagewizard/composer issue
         },
         {
             "name": "mpat/mpat-theme",

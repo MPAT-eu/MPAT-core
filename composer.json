@@ -70,6 +70,7 @@
         "mpat/mpat-theme" : "dev-master",
         "mpat/mpat-importexport" : "dev-master",
         "mpat/mpat-explorer" : "dev-master",
+        "mpat/mpat-newpagewizard": "dev-master",
         "mpat-cpo" : "dev-master",
         "mbop-remover" : "dev-master"
     },
