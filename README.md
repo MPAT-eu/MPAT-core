@@ -4,9 +4,12 @@ Main MPAT project based on [Bedrock](https://roots.io/bedrock/).
 
 ## Requirements
 
-* PHP >= 5.5
+* PHP 7.2 or greater
+* MySQL 5.6 or greater OR MariaDB 10.0 or greater
+* The mod_rewrite Apache module
 * Composer - [Install](https://getcomposer.org/doc/00-intro.md#globally) (composer executable is also provided by MPAT itself)
 * WP-Cli (optional but strongly recommended when configuring MPAT in dev environment) [Install](http://wp-cli.org/#install)
+Note: If you are in a legacy environment where you only have older PHP or MySQL versions, WordPress also works with PHP 5.2.4+ and MySQL 5.0+, but these versions have reached official End Of Life and as such may expose your site to security vulnerabilities.
 
 ## Demo
 
