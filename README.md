@@ -15,6 +15,8 @@ Main MPAT project based on [Bedrock](https://roots.io/bedrock/).
 
 A current demo is running at http://demo.mpat.eu
 
+If you are interested in testing the backend and testing the application on your TV, please write a short email to mpat@irt.de
+
 ## Installation
 
 1. Clone the git repo - `git clone https://github.com/MPAT-eu/MPAT-core.git [desired_folder_name]`. `[desired_folder_name]` is optional, default value is `MPAT-core`. In next steps `desired_folder_name` refers to MPAT root folder.
