@@ -45,7 +45,8 @@ If you are interested in testing the backend and testing the application on your
 7. If webserver has not write permissions on `/desired_folder_name/web/.htaccess` but you still need pretty permalinks, copy `.htaccess.singlesite` to `.htaccess` in `/desired_folder_name/web/` folder (or follow suggestions in `wp-admin/options-permalink.php` page   
 8. If needed, update your /etc/hosts file according to WP_HOME
 9. In browser, access WP admin at `WP_HOME/wp/wp-admin` (http://example.com/wp/wp-admin)
-10. if wordpress is running and you are logged in, activate the "MPAT Plugin" under Plugins.
+10. MPAT can only be used in Wordpress Multisite configuration. [follow these steps to activate WP multisite](https://github.com/MPAT-eu/MPAT-core#multisite-configuration)
+11. if wordpress is running and you are logged in, activate the "MPAT Plugin" under Plugins.
 
 ## Domain related variables samples
 
