@@ -108,20 +108,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.2",
+            "version": "4.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "34627d0b992bbe9ed909c73b27307297fb21f2a4"
+                "reference": "5394373d26a8e304eb293c2a9359701a7ab03131"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/34627d0b992bbe9ed909c73b27307297fb21f2a4",
-                "reference": "34627d0b992bbe9ed909c73b27307297fb21f2a4",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/5394373d26a8e304eb293c2a9359701a7ab03131",
+                "reference": "5394373d26a8e304eb293c2a9359701a7ab03131",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.2",
+                "johnpbloch/wordpress-core": "4.9.4",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -143,32 +143,32 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-01-16T23:12:18+00:00"
+            "time": "2018-02-06T16:42:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.2",
+            "version": "4.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "59292fac30315323ce99e1a1d362015581e5d8e6"
+                "reference": "eef672cdb4ae9e846c464d4d03684b43d4108eda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/59292fac30315323ce99e1a1d362015581e5d8e6",
-                "reference": "59292fac30315323ce99e1a1d362015581e5d8e6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/eef672cdb4ae9e846c464d4d03684b43d4108eda",
+                "reference": "eef672cdb4ae9e846c464d4d03684b43d4108eda",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.2"
+                "wordpress/core-implementation": "4.9.4"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -183,20 +183,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-01-16T23:12:12+00:00"
+            "time": "2018-02-06T16:42:13+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "1.0.0",
+            "version": "1.0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
+                "reference": "7941acd71725710a789daabe0557429da63e7ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
-                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/7941acd71725710a789daabe0557429da63e7ac6",
+                "reference": "7941acd71725710a789daabe0557429da63e7ac6",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-05-31T18:42:33+00:00"
+            "time": "2018-01-29T14:49:29+00:00"
         },
         {
             "name": "mbop-remover",
@@ -332,12 +332,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MPAT-eu/mpat-importexport.git",
-                "reference": "85a0eb1dac743b143330d87215bd02f007866366"
+                "reference": "fc6ea961d6b3bc4400f50662599f1ae08861375e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MPAT-eu/mpat-importexport/zipball/85a0eb1dac743b143330d87215bd02f007866366",
-                "reference": "85a0eb1dac743b143330d87215bd02f007866366",
+                "url": "https://api.github.com/repos/MPAT-eu/mpat-importexport/zipball/fc6ea961d6b3bc4400f50662599f1ae08861375e",
+                "reference": "fc6ea961d6b3bc4400f50662599f1ae08861375e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -355,7 +355,7 @@
                 "source": "https://github.com/MPAT-eu/mpat-importexport/tree/master",
                 "issues": "https://github.com/MPAT-eu/mpat-importexport/issues"
             },
-            "time": "2017-11-15T15:36:42+00:00"
+            "time": "2018-02-19T13:04:31+00:00"
         },
         {
             "name": "mpat/mpat-newpagewizard",
@@ -394,12 +394,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MPAT-eu/MPAT-plugins.git",
-                "reference": "57dbc9973020d6d7a88e700cedd1cb385ebcbd57"
+                "reference": "ea03b827c941de39c4035082d530ac851cd95857"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MPAT-eu/MPAT-plugins/zipball/57dbc9973020d6d7a88e700cedd1cb385ebcbd57",
-                "reference": "57dbc9973020d6d7a88e700cedd1cb385ebcbd57",
+                "url": "https://api.github.com/repos/MPAT-eu/MPAT-plugins/zipball/ea03b827c941de39c4035082d530ac851cd95857",
+                "reference": "ea03b827c941de39c4035082d530ac851cd95857",
                 "shasum": ""
             },
             "require": {
@@ -430,7 +430,7 @@
                 "source": "https://github.com/MPAT-eu/MPAT-plugins/tree/master",
                 "issues": "https://github.com/MPAT-eu/MPAT-plugins/issues"
             },
-            "time": "2018-01-18T15:14:20+00:00"
+            "time": "2018-02-12T16:40:35+00:00"
         },
         {
             "name": "mpat/mpat-theme",
@@ -618,15 +618,15 @@
         },
         {
             "name": "wpackagist-plugin/enhanced-media-library",
-            "version": "2.4.5",
+            "version": "2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enhanced-media-library/",
-                "reference": "tags/2.4.5"
+                "reference": "tags/2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enhanced-media-library.2.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/enhanced-media-library.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
