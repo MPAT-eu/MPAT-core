@@ -76,6 +76,18 @@ After installation, you have to enable that feature and there are two main ways:
 1. Follow [WP documentation](http://codex.wordpress.org/Create_A_Network#Step_3:_Installing_a_Network).
 2. Due to changes in the project folder structure (wp-config.php settings have been moved in application.php), when wordpress guided installation prompts to put code in your wp-config.php do not do that, instead set WP_MULTISITE variable in your .env file to TRUE (other required constants are already defined in application.php)
 3. Copy lines suggested by network installation tool to  in `/desired_folder_name/web/.htaccess`. If `.htaccess` does not exist, it can be created staring from .htaccess.multisite
+4. Make shure mod_rewrite is activated and is working. 
+
+on linux run:
+
+     a2enmod rewrite
+     
+Add something like to your apache conf.
+
+     <Directory /var/www/>
+      AllowOverride All
+     </Directory>
+    
 
 ## Documentation
 
